@@ -14,7 +14,7 @@ app.use((req, res, next) => {
 });
 
 // route
-app.get("/", (_req, res) => {
+app.get("/api/wulan", (_req, res) => {
   res.send("romi");
 });
 
